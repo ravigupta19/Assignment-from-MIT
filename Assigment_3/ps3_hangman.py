@@ -7,7 +7,8 @@
 # but you will have to know how to use the functions
 # (so be sure to read the docstrings!)
 
-import random
+import random, string
+
 
 WORDLIST_FILENAME = "words.txt"
 
@@ -51,7 +52,13 @@ def isWordGuessed(secretWord, lettersGuessed):
       False otherwise
     '''
     # FILL IN YOUR CODE HERE...
+    guessed = True
+    for character in secretWord:
+        if character not in lettersGuessed:
+            guessed = False
+            break
 
+    return guessed
 
 
 def getGuessedWord(secretWord, lettersGuessed):
@@ -62,14 +69,13 @@ def getGuessedWord(secretWord, lettersGuessed):
       what letters in secretWord have been guessed so far.
     '''
     # FILL IN YOUR CODE HERE...
-    guessed = True
-    for character in secretWord:
-        if character not in lettersGuessed:
-            guessed = False
-            break
-
-    return guessed
-
+    guessWord = ''
+    for letter in secretWord:
+        if letter in lettersGuessed:
+            guessWord = guessWord + str(letter)
+        else:
+            guessWord = guessWord + '_ '
+    return guessWord
 
 
 def getAvailableLetters(lettersGuessed):
@@ -79,7 +85,14 @@ def getAvailableLetters(lettersGuessed):
       yet been guessed.
     '''
     # FILL IN YOUR CODE HERE...
-    
+    allLetters = string.ascii_lowercase
+    if len(lettersGuessed) == 0:
+        return allLetters
+    else:
+        for letters in lettersGuessed:
+            allLetters = allLetters.replace(letters, '')
+
+    return allLetters
 
 def hangman(secretWord):
     '''

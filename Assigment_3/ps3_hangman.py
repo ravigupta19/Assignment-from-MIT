@@ -74,7 +74,7 @@ def getGuessedWord(secretWord, lettersGuessed):
         if letter in lettersGuessed:
             guessWord = guessWord + str(letter)
         else:
-            guessWord = guessWord + '_ '
+            guessWord = guessWord + "_ "
     return guessWord
 
 
@@ -115,8 +115,9 @@ def hangman(secretWord):
     Follows the other limitations detailed in the problem write-up.
     '''
     # FILL IN YOUR CODE HERE...
-
-
+    count = len(secretWord)
+    print(" Welcome to the game, Hangman! ")
+    print(" I am thinking of a word that is "+ str(count) + " letters long.")
 
 
 
@@ -125,5 +126,5 @@ def hangman(secretWord):
 # and run this file to test! (hint: you might want to pick your own
 # secretWord while you're testing)
 
-# secretWord = chooseWord(wordlist).lower()
-# hangman(secretWord)
+secretWord = chooseWord(wordlist).lower()
+hangman(secretWord)

@@ -9,8 +9,8 @@
 
 import random, string
 
-
 WORDLIST_FILENAME = "words.txt"
+
 
 def loadWords():
     """
@@ -29,6 +29,7 @@ def loadWords():
     print("  ", len(wordlist), "words loaded.")
     return wordlist
 
+
 def chooseWord(wordlist):
     """
     wordlist (list): list of words (strings)
@@ -37,12 +38,14 @@ def chooseWord(wordlist):
     """
     return random.choice(wordlist)
 
+
 # end of helper code
 # -----------------------------------
 
 # Load the list of words into the variable wordlist
 # so that it can be accessed from anywhere in the program
 wordlist = loadWords()
+
 
 def isWordGuessed(secretWord, lettersGuessed):
     '''
@@ -94,32 +97,63 @@ def getAvailableLetters(lettersGuessed):
 
     return allLetters
 
+
+def wordExistInList(lettersGuessed, letter, secretWord):
+    if letter not in lettersGuessed:
+        return False
+    else:
+        return getGuessedWord(secretWord, lettersGuessed)
+
+
 def hangman(secretWord):
     '''
     secretWord: string, the secret word to guess.
 
     Starts up an interactive game of Hangman.
 
-    * At the start of the game, let the user know how many 
+    * At the start of the game, let the user know how many
       letters the secretWord contains.
 
     * Ask the user to supply one guess (i.e. letter) per round.
 
-    * The user should receive feedback immediately after each guess 
+    * The user should receive feedback immediately after each guess
       about whether their guess appears in the computers word.
 
-    * After each round, you should also display to the user the 
-      partially guessed word so far, as well as letters that the 
+    * After each round, you should also display to the user the
+      partially guessed word so far, as well as letters that the
       user has not yet guessed.
 
     Follows the other limitations detailed in the problem write-up.
     '''
     # FILL IN YOUR CODE HERE...
+    lettersGuessed = []
+    mistakesMade = 0
     count = len(secretWord)
-    print(" Welcome to the game, Hangman! ")
-    print(" I am thinking of a word that is "+ str(count) + " letters long.")
-
-
+    print("Welcome to the game, Hangman! ")
+    print("I am thinking of a word that is " + str(count) + " letters long.")
+    while mistakesMade < 8:
+        print("-----------")
+        print("You have " + str(8 - mistakesMade) + " guesses left")
+        print("Available Letters: " + str(getAvailableLetters(lettersGuessed)))
+        inputGuessedLetter = input("Please guess a letter: ")
+        isLetterExist = wordExistInList(lettersGuessed, inputGuessedLetter, secretWord)
+        if not isLetterExist:
+            lettersGuessed.append(inputGuessedLetter)
+            res = getGuessedWord(secretWord, lettersGuessed)
+            if inputGuessedLetter not in secretWord:
+                print("Oops! That letter is not in my word: " + str(res))
+                mistakesMade += 1
+            else:
+                print("Good guess: " + str(res))
+                guessed = isWordGuessed(secretWord, lettersGuessed)
+                if guessed:
+                    print("-----------")
+                    print("Congratulations, you won!")
+                    return
+        else:
+            print("Oops! You've already guessed that letter:" + str(isLetterExist))
+    print("-----------")
+    print("	Sorry, you ran out of guesses. The word was " + str(secretWord))
 
 
 # When you've completed your hangman function, uncomment these two lines

@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d16af0-84a0-4321-ae6a-4d8bc811526a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Assignment-from-MIT.iml" afterPath="$PROJECT_DIR$/.idea/Assignment-from-MIT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_1/Longest_substring.py" afterPath="$PROJECT_DIR$/Assigment_1/Longest_substring.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_1/count_no_bob.py" afterPath="$PROJECT_DIR$/Assigment_1/count_no_bob.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_1/count_vowels.py" afterPath="$PROJECT_DIR$/Assigment_1/count_vowels.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_3/ps3_hangman.py" afterPath="$PROJECT_DIR$/Assigment_3/ps3_hangman.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_3/words.txt" afterPath="$PROJECT_DIR$/Assigment_3/words.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_4/ps4a.py" afterPath="$PROJECT_DIR$/Assigment_4/ps4a.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +20,21 @@
       <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assigment_4/ps4a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="82" selection-end-column="16" />
+            <state relative-caret-position="-153">
+              <caret line="243" column="17" lean-forward="true" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
               <folding>
                 <element signature="e#22#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_ps4a.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assigment_4/test_ps4a.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,6 +203,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="test_ps4a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assigment_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Assignment-from-MIT" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assigment_4/test_ps4a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,16 +354,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.count_no_bob" />
       <item index="1" class="java.lang.String" itemvalue="Python.ps3_hangman" />
       <item index="2" class="java.lang.String" itemvalue="Python.ps4a" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_ps4a" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.ps4a" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ps3_hangman" />
-        <item index="2" class="java.lang.String" itemvalue="Python.count_no_bob" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_ps4a" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ps3_hangman" />
+        <item index="3" class="java.lang.String" itemvalue="Python.count_no_bob" />
       </list>
     </recent_temporary>
   </component>
@@ -376,12 +395,12 @@
     <frame x="0" y="-28" width="1920" height="1108" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3761194" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -405,7 +424,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="from ps4a import *&#10;&#10;#&#10;# Test code&#10;# You don't need to understand how this test code works (but feel free to look it over!)&#10;&#10;# To run these tests, simply run this file (open up in your IDE, then run the file as normal)&#10;&#10;def test_getWordScore():&#10;    &quot;&quot;&quot;&#10;    Unit test for getWordScore&#10;    &quot;&quot;&quot;&#10;    failure=False&#10;    # dictionary of words and scores&#10;    words = {(&quot;&quot;, 7):0, (&quot;it&quot;, 7):4, (&quot;was&quot;, 7):18, (&quot;scored&quot;, 7):54, (&quot;waybill&quot;, 7):155, (&quot;outgnaw&quot;, 7):127, (&quot;fork&quot;, 7):44, (&quot;fork&quot;, 4):94}&#10;    for (word, n) in words.keys():&#10;        score = getWordScore(word, n)&#10;        if score != words[(word, n)]:&#10;            print(&quot;FAILURE: test_getWordScore()&quot;)&#10;            print(&quot;\tExpected&quot;, words[(word, n)], &quot;points but got '&quot; + str(score) + &quot;' for word '&quot; + word + &quot;', n=&quot; + str(n))&#10;            failure=True&#10;    if not failure:&#10;        print(&quot;SUCCESS: test_getWordScore()&quot;)&#10;&#10;# end of test_getWordScore&#10;&#10;&#10;def test_updateHand():&#10;    &quot;&quot;&quot;&#10;    Unit test for updateHand&#10;    &quot;&quot;&quot;&#10;    # test 1&#10;    handOrig = {'a':1, 'q':1, 'l':2, 'm':1, 'u':1, 'i':1}&#10;    handCopy = handOrig.copy()&#10;    word = &quot;quail&quot;&#10;&#10;    hand2 = updateHand(handCopy, word)&#10;    expectedHand1 = {'l':1, 'm':1}&#10;    expectedHand2 = {'a':0, 'q':0, 'l':1, 'm':1, 'u':0, 'i':0}&#10;    if hand2 != expectedHand1 and hand2 != expectedHand2:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tReturned: &quot;, hand2, &quot;\n\t-- but expected:&quot;, expectedHand1, &quot;or&quot;, expectedHand2)&#10;&#10;        return # exit function&#10;    if handCopy != handOrig:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tOriginal hand was&quot;, handOrig)&#10;        print(&quot;\tbut implementation of updateHand mutated the original hand!&quot;)&#10;        print(&quot;\tNow the hand looks like this:&quot;, handCopy)&#10;        &#10;        return # exit function&#10;        &#10;    # test 2&#10;    handOrig = {'e':1, 'v':2, 'n':1, 'i':1, 'l':2}&#10;    handCopy = handOrig.copy()&#10;    word = &quot;evil&quot;&#10;&#10;    hand2 = updateHand(handCopy, word)&#10;    expectedHand1 = {'v':1, 'n':1, 'l':1}&#10;    expectedHand2 = {'e':0, 'v':1, 'n':1, 'i':0, 'l':1}&#10;    if hand2 != expectedHand1 and hand2 != expectedHand2:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tReturned: &quot;, hand2, &quot;\n\t-- but expected:&quot;, expectedHand1, &quot;or&quot;, expectedHand2)&#10;&#10;        return # exit function&#10;&#10;    if handCopy != handOrig:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tOriginal hand was&quot;, handOrig)&#10;        print(&quot;\tbut implementation of updateHand mutated the original hand!&quot;)&#10;        print(&quot;\tNow the hand looks like this:&quot;, handCopy)&#10;        &#10;        return # exit function&#10;&#10;    # test 3&#10;    handOrig = {'h': 1, 'e': 1, 'l': 2, 'o': 1}&#10;    handCopy = handOrig.copy()&#10;    word = &quot;hello&quot;&#10;&#10;    hand2 = updateHand(handCopy, word)&#10;    expectedHand1 = {}&#10;    expectedHand2 = {'h': 0, 'e': 0, 'l': 0, 'o': 0}&#10;    if hand2 != expectedHand1 and hand2 != expectedHand2:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tReturned: &quot;, hand2, &quot;\n\t-- but expected:&quot;, expectedHand1, &quot;or&quot;, expectedHand2)&#10;        &#10;        return # exit function&#10;&#10;    if handCopy != handOrig:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tOriginal hand was&quot;, handOrig)&#10;        print(&quot;\tbut implementation of updateHand mutated the original hand!&quot;)&#10;        print(&quot;\tNow the hand looks like this:&quot;, handCopy)&#10;        &#10;        return # exit function&#10;&#10;    print(&quot;SUCCESS: test_updateHand()&quot;)&#10;&#10;# end of test_updateHand&#10;&#10;def test_isValidWord(wordList):&#10;    &quot;&quot;&quot;&#10;    Unit test for isValidWord&#10;    &quot;&quot;&quot;&#10;    failure=False&#10;    # test 1&#10;    word = &quot;hello&quot;&#10;    handOrig = getFrequencyDict(word)&#10;    handCopy = handOrig.copy()&#10;&#10;    if not isValidWord(word, handCopy, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected True, but got False for word: '&quot; + word + &quot;' and hand:&quot;, handOrig)&#10;&#10;        failure = True&#10;&#10;    # Test a second time to see if wordList or hand has been modified&#10;    if not isValidWord(word, handCopy, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;&#10;        if handCopy != handOrig:&#10;            print(&quot;\tTesting word&quot;, word, &quot;for a second time - be sure you're not modifying hand.&quot;)&#10;            print(&quot;\tAt this point, hand ought to be&quot;, handOrig, &quot;but it is&quot;, handCopy)&#10;&#10;        else:&#10;            print(&quot;\tTesting word&quot;, word, &quot;for a second time - have you modified wordList?&quot;)&#10;            wordInWL = word in wordList&#10;            print(&quot;The word&quot;, word, &quot;should be in wordList - is it?&quot;, wordInWL)&#10;&#10;        print(&quot;\tExpected True, but got False for word: '&quot; + word + &quot;' and hand:&quot;, handCopy)&#10;&#10;        failure = True&#10;&#10;&#10;    # test 2&#10;    hand = {'r': 1, 'a': 3, 'p': 2, 'e': 1, 't': 1, 'u':1}&#10;    word = &quot;rapture&quot;&#10;&#10;    if  isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected False, but got True for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;&#10;        failure = True        &#10;&#10;    # test 3&#10;    hand = {'n': 1, 'h': 1, 'o': 1, 'y': 1, 'd':1, 'w':1, 'e': 2}&#10;    word = &quot;honey&quot;&#10;&#10;    if  not isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected True, but got False for word: '&quot;+ word +&quot;' and hand:&quot;, hand)&#10;&#10;        failure = True                        &#10;&#10;    # test 4&#10;    hand = {'r': 1, 'a': 3, 'p': 2, 't': 1, 'u':2}&#10;    word = &quot;honey&quot;&#10;&#10;    if  isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected False, but got True for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;        &#10;        failure = True&#10;&#10;    # test 5&#10;    hand = {'e':1, 'v':2, 'n':1, 'i':1, 'l':2}&#10;    word = &quot;evil&quot;&#10;    &#10;    if  not isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected True, but got False for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;        &#10;        failure = True&#10;        &#10;    # test 6&#10;    word = &quot;even&quot;&#10;&#10;    if  isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected False, but got True for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;        print(&quot;\t(If this is the only failure, make sure isValidWord() isn't mutating its inputs)&quot;)&#10;        &#10;        failure = True        &#10;&#10;    if not failure:&#10;        print(&quot;SUCCESS: test_isValidWord()&quot;)&#10;&#10;&#10;wordList = loadWords()&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;Testing getWordScore...&quot;)&#10;test_getWordScore()&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;Testing updateHand...&quot;)&#10;test_updateHand()&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;Testing isValidWord...&quot;)&#10;test_isValidWord(wordList)&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;All done!&quot;)&#10;" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assigment_1/count_vowels.py">
@@ -632,10 +655,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assigment_4/test_ps4a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assigment_4/ps4a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="82" selection-end-column="16" />
+        <state relative-caret-position="-153">
+          <caret line="243" column="17" lean-forward="true" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
           <folding>
             <element signature="e#22#35#0" expanded="true" />
           </folding>

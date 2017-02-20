@@ -20,8 +20,8 @@
       <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assigment_4/ps4a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="243" column="17" lean-forward="true" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="279" column="2" lean-forward="false" selection-start-line="279" selection-start-column="2" selection-end-line="298" selection-end-column="37" />
               <folding>
                 <element signature="e#22#35#0" expanded="true" />
               </folding>
@@ -47,6 +47,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>random</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -665,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assigment_4/ps4a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="243" column="17" lean-forward="true" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="279" column="2" lean-forward="false" selection-start-line="279" selection-start-column="2" selection-end-line="298" selection-end-column="37" />
           <folding>
             <element signature="e#22#35#0" expanded="true" />
           </folding>

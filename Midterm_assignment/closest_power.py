@@ -1,3 +1,4 @@
+
 def closest_power(base, num):
     '''
     base: base of the exponential, integer > 1
@@ -8,30 +9,36 @@ def closest_power(base, num):
     Returns the exponent.
     '''
     # Your code here
+    num = int(num)
     if num == 1:
         return 0
     low = 1
     high = num
-    mid =  int((low + high) / 2)
+    mid = int((low + high) / 2)
     lowestDiff = num
+    counter = 0
+    tempEx = 0
     while True:
         exponential = mid
         res = base ** exponential
         diff = abs(res - num)
-        if res == num:
+        if diff == 0:
             break
-        elif res > num:
-            if diff > lowestDiff:
+        elif counter == 0 or (counter > 0 and diff < lowestDiff):
+            lowestDiff = diff
+            if res > num:
                 high = mid
             else:
-                break
-        elif res < num:
-            if diff > lowestDiff:
                 low = mid
-            else:
-                break
-        mid = int((low + high)/2)
+            mid = int((low + high) / 2)
+            tempEx = exponential
+        elif counter > 0 and diff >= lowestDiff:
+            exponential = tempEx
+            break
+        counter += 1
     return exponential
 
-print(closest_power(3,12))
+print(closest_power(20, 210.0))
+
+
 

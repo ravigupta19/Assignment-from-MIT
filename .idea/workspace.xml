@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d16af0-84a0-4321-ae6a-4d8bc811526a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_4/ps4a.py" afterPath="$PROJECT_DIR$/Assigment_4/ps4a.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assigment_4/ps4b.py" afterPath="$PROJECT_DIR$/Assigment_4/ps4b.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +17,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assigment_4/ps4a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="279" column="2" lean-forward="false" selection-start-line="279" selection-start-column="2" selection-end-line="298" selection-end-column="37" />
+            <state relative-caret-position="491">
+              <caret line="301" column="0" lean-forward="true" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
               <folding>
                 <element signature="e#22#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ps4b.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assigment_4/ps4b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="133" column="1" lean-forward="false" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assigment_1/Longest_substring.py" />
         <option value="$PROJECT_DIR$/Assigment_3/words.txt" />
         <option value="$PROJECT_DIR$/Assigment_3/ps3_hangman.py" />
+        <option value="$PROJECT_DIR$/Assigment_4/ps4b.py" />
         <option value="$PROJECT_DIR$/Assigment_4/ps4a.py" />
       </list>
     </option>
@@ -156,7 +169,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.ps4a">
+  <component name="RunManager" selected="Python.ps4b">
     <configuration default="false" name="count_no_bob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,6 +234,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Assignment-from-MIT" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assigment_4/test_ps4a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ps4b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assigment_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Assignment-from-MIT" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assigment_4/ps4b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -359,18 +389,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.count_no_bob" />
       <item index="1" class="java.lang.String" itemvalue="Python.ps3_hangman" />
       <item index="2" class="java.lang.String" itemvalue="Python.ps4a" />
       <item index="3" class="java.lang.String" itemvalue="Python.test_ps4a" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ps4b" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.ps4a" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_ps4a" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ps3_hangman" />
-        <item index="3" class="java.lang.String" itemvalue="Python.count_no_bob" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.ps4b" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ps4a" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_ps4a" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ps3_hangman" />
+        <item index="4" class="java.lang.String" itemvalue="Python.count_no_bob" />
       </list>
     </recent_temporary>
   </component>
@@ -670,10 +702,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assigment_4/ps4a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="279" column="2" lean-forward="false" selection-start-line="279" selection-start-column="2" selection-end-line="298" selection-end-column="37" />
+        <state relative-caret-position="491">
+          <caret line="301" column="0" lean-forward="true" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
           <folding>
             <element signature="e#22#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assigment_4/ps4b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="133" column="1" lean-forward="false" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

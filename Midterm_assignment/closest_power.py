@@ -10,13 +10,28 @@ def closest_power(base, num):
     # Your code here
     if num == 1:
         return 0
-
-    guessed = False
     low = 1
     high = num
     mid =  int((low + high) / 2)
-    while not guessed:
-        guessedExpotential
+    lowestDiff = num
+    while True:
+        exponential = mid
+        res = base ** exponential
+        diff = abs(res - num)
+        if res == num:
+            break
+        elif res > num:
+            if diff > lowestDiff:
+                high = mid
+            else:
+                break
+        elif res < num:
+            if diff > lowestDiff:
+                low = mid
+            else:
+                break
+        mid = int((low + high)/2)
+    return exponential
 
+print(closest_power(3,12))
 
-closest_power(3,12)

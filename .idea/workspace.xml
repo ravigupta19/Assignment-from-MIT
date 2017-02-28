@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d16af0-84a0-4321-ae6a-4d8bc811526a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Assignment-from-MIT.iml" afterPath="$PROJECT_DIR$/.idea/Assignment-from-MIT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Midterm_assignment/deep_reverse_list.py" afterPath="$PROJECT_DIR$/Midterm_assignment/deep_reverse_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Midterm_assignment/sanjeev_soultion_closest_power.py" afterPath="$PROJECT_DIR$/Midterm_assignment/sanjeev_soultion_closest_power.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py" afterPath="$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,21 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deep_reverse_list.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deep_reverse_list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Midterm_assignment/deep_reverse_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dict_interdiff.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dict_interdiff.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,13 +146,13 @@
         <option value="$PROJECT_DIR$/Assigment_3/ps3_hangman.py" />
         <option value="$PROJECT_DIR$/Assigment_4/ps4b.py" />
         <option value="$PROJECT_DIR$/Assigment_4/ps4a.py" />
-        <option value="$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py" />
         <option value="$PROJECT_DIR$/Midterm_assignment/applyF_filterG.py" />
         <option value="$PROJECT_DIR$/Midterm_assignment/flatten.py" />
         <option value="$PROJECT_DIR$/Midterm_assignment/closest_power.py" />
         <option value="$PROJECT_DIR$/Midterm_assignment/dotproduct.py" />
         <option value="$PROJECT_DIR$/Midterm_assignment/sanjeev_soultion_closest_power.py" />
         <option value="$PROJECT_DIR$/Midterm_assignment/deep_reverse_list.py" />
+        <option value="$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py" />
       </list>
     </option>
   </component>
@@ -263,24 +259,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.deep_reverse_list">
-    <configuration default="false" name="ps4b" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assigment_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Assignment-from-MIT" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assigment_4/ps4b.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.dict_interdiff">
     <configuration default="false" name="closest_power" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,6 +324,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Assignment-from-MIT" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Midterm_assignment/deep_reverse_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dict_interdiff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Midterm_assignment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Assignment-from-MIT" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -484,19 +480,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ps4b" />
-      <item index="1" class="java.lang.String" itemvalue="Python.closest_power" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sanjeev_soultion_closest_power" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dotproduct" />
-      <item index="4" class="java.lang.String" itemvalue="Python.deep_reverse_list" />
+      <item index="0" class="java.lang.String" itemvalue="Python.closest_power" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sanjeev_soultion_closest_power" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dotproduct" />
+      <item index="3" class="java.lang.String" itemvalue="Python.deep_reverse_list" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dict_interdiff" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.deep_reverse_list" />
-        <item index="1" class="java.lang.String" itemvalue="Python.closest_power" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sanjeev_soultion_closest_power" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dotproduct" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ps4b" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dict_interdiff" />
+        <item index="1" class="java.lang.String" itemvalue="Python.deep_reverse_list" />
+        <item index="2" class="java.lang.String" itemvalue="Python.closest_power" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sanjeev_soultion_closest_power" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dotproduct" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +569,9 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="from ps4a import *&#10;&#10;#&#10;# Test code&#10;# You don't need to understand how this test code works (but feel free to look it over!)&#10;&#10;# To run these tests, simply run this file (open up in your IDE, then run the file as normal)&#10;&#10;def test_getWordScore():&#10;    &quot;&quot;&quot;&#10;    Unit test for getWordScore&#10;    &quot;&quot;&quot;&#10;    failure=False&#10;    # dictionary of words and scores&#10;    words = {(&quot;&quot;, 7):0, (&quot;it&quot;, 7):4, (&quot;was&quot;, 7):18, (&quot;scored&quot;, 7):54, (&quot;waybill&quot;, 7):155, (&quot;outgnaw&quot;, 7):127, (&quot;fork&quot;, 7):44, (&quot;fork&quot;, 4):94}&#10;    for (word, n) in words.keys():&#10;        score = getWordScore(word, n)&#10;        if score != words[(word, n)]:&#10;            print(&quot;FAILURE: test_getWordScore()&quot;)&#10;            print(&quot;\tExpected&quot;, words[(word, n)], &quot;points but got '&quot; + str(score) + &quot;' for word '&quot; + word + &quot;', n=&quot; + str(n))&#10;            failure=True&#10;    if not failure:&#10;        print(&quot;SUCCESS: test_getWordScore()&quot;)&#10;&#10;# end of test_getWordScore&#10;&#10;&#10;def test_updateHand():&#10;    &quot;&quot;&quot;&#10;    Unit test for updateHand&#10;    &quot;&quot;&quot;&#10;    # test 1&#10;    handOrig = {'a':1, 'q':1, 'l':2, 'm':1, 'u':1, 'i':1}&#10;    handCopy = handOrig.copy()&#10;    word = &quot;quail&quot;&#10;&#10;    hand2 = updateHand(handCopy, word)&#10;    expectedHand1 = {'l':1, 'm':1}&#10;    expectedHand2 = {'a':0, 'q':0, 'l':1, 'm':1, 'u':0, 'i':0}&#10;    if hand2 != expectedHand1 and hand2 != expectedHand2:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tReturned: &quot;, hand2, &quot;\n\t-- but expected:&quot;, expectedHand1, &quot;or&quot;, expectedHand2)&#10;&#10;        return # exit function&#10;    if handCopy != handOrig:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tOriginal hand was&quot;, handOrig)&#10;        print(&quot;\tbut implementation of updateHand mutated the original hand!&quot;)&#10;        print(&quot;\tNow the hand looks like this:&quot;, handCopy)&#10;        &#10;        return # exit function&#10;        &#10;    # test 2&#10;    handOrig = {'e':1, 'v':2, 'n':1, 'i':1, 'l':2}&#10;    handCopy = handOrig.copy()&#10;    word = &quot;evil&quot;&#10;&#10;    hand2 = updateHand(handCopy, word)&#10;    expectedHand1 = {'v':1, 'n':1, 'l':1}&#10;    expectedHand2 = {'e':0, 'v':1, 'n':1, 'i':0, 'l':1}&#10;    if hand2 != expectedHand1 and hand2 != expectedHand2:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tReturned: &quot;, hand2, &quot;\n\t-- but expected:&quot;, expectedHand1, &quot;or&quot;, expectedHand2)&#10;&#10;        return # exit function&#10;&#10;    if handCopy != handOrig:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tOriginal hand was&quot;, handOrig)&#10;        print(&quot;\tbut implementation of updateHand mutated the original hand!&quot;)&#10;        print(&quot;\tNow the hand looks like this:&quot;, handCopy)&#10;        &#10;        return # exit function&#10;&#10;    # test 3&#10;    handOrig = {'h': 1, 'e': 1, 'l': 2, 'o': 1}&#10;    handCopy = handOrig.copy()&#10;    word = &quot;hello&quot;&#10;&#10;    hand2 = updateHand(handCopy, word)&#10;    expectedHand1 = {}&#10;    expectedHand2 = {'h': 0, 'e': 0, 'l': 0, 'o': 0}&#10;    if hand2 != expectedHand1 and hand2 != expectedHand2:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tReturned: &quot;, hand2, &quot;\n\t-- but expected:&quot;, expectedHand1, &quot;or&quot;, expectedHand2)&#10;        &#10;        return # exit function&#10;&#10;    if handCopy != handOrig:&#10;        print(&quot;FAILURE: test_updateHand('&quot;+ word +&quot;', &quot; + str(handOrig) + &quot;)&quot;)&#10;        print(&quot;\tOriginal hand was&quot;, handOrig)&#10;        print(&quot;\tbut implementation of updateHand mutated the original hand!&quot;)&#10;        print(&quot;\tNow the hand looks like this:&quot;, handCopy)&#10;        &#10;        return # exit function&#10;&#10;    print(&quot;SUCCESS: test_updateHand()&quot;)&#10;&#10;# end of test_updateHand&#10;&#10;def test_isValidWord(wordList):&#10;    &quot;&quot;&quot;&#10;    Unit test for isValidWord&#10;    &quot;&quot;&quot;&#10;    failure=False&#10;    # test 1&#10;    word = &quot;hello&quot;&#10;    handOrig = getFrequencyDict(word)&#10;    handCopy = handOrig.copy()&#10;&#10;    if not isValidWord(word, handCopy, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected True, but got False for word: '&quot; + word + &quot;' and hand:&quot;, handOrig)&#10;&#10;        failure = True&#10;&#10;    # Test a second time to see if wordList or hand has been modified&#10;    if not isValidWord(word, handCopy, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;&#10;        if handCopy != handOrig:&#10;            print(&quot;\tTesting word&quot;, word, &quot;for a second time - be sure you're not modifying hand.&quot;)&#10;            print(&quot;\tAt this point, hand ought to be&quot;, handOrig, &quot;but it is&quot;, handCopy)&#10;&#10;        else:&#10;            print(&quot;\tTesting word&quot;, word, &quot;for a second time - have you modified wordList?&quot;)&#10;            wordInWL = word in wordList&#10;            print(&quot;The word&quot;, word, &quot;should be in wordList - is it?&quot;, wordInWL)&#10;&#10;        print(&quot;\tExpected True, but got False for word: '&quot; + word + &quot;' and hand:&quot;, handCopy)&#10;&#10;        failure = True&#10;&#10;&#10;    # test 2&#10;    hand = {'r': 1, 'a': 3, 'p': 2, 'e': 1, 't': 1, 'u':1}&#10;    word = &quot;rapture&quot;&#10;&#10;    if  isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected False, but got True for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;&#10;        failure = True        &#10;&#10;    # test 3&#10;    hand = {'n': 1, 'h': 1, 'o': 1, 'y': 1, 'd':1, 'w':1, 'e': 2}&#10;    word = &quot;honey&quot;&#10;&#10;    if  not isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected True, but got False for word: '&quot;+ word +&quot;' and hand:&quot;, hand)&#10;&#10;        failure = True                        &#10;&#10;    # test 4&#10;    hand = {'r': 1, 'a': 3, 'p': 2, 't': 1, 'u':2}&#10;    word = &quot;honey&quot;&#10;&#10;    if  isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected False, but got True for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;        &#10;        failure = True&#10;&#10;    # test 5&#10;    hand = {'e':1, 'v':2, 'n':1, 'i':1, 'l':2}&#10;    word = &quot;evil&quot;&#10;    &#10;    if  not isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected True, but got False for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;        &#10;        failure = True&#10;        &#10;    # test 6&#10;    word = &quot;even&quot;&#10;&#10;    if  isValidWord(word, hand, wordList):&#10;        print(&quot;FAILURE: test_isValidWord()&quot;)&#10;        print(&quot;\tExpected False, but got True for word: '&quot; + word + &quot;' and hand:&quot;, hand)&#10;        print(&quot;\t(If this is the only failure, make sure isValidWord() isn't mutating its inputs)&quot;)&#10;        &#10;        failure = True        &#10;&#10;    if not failure:&#10;        print(&quot;SUCCESS: test_isValidWord()&quot;)&#10;&#10;&#10;wordList = loadWords()&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;Testing getWordScore...&quot;)&#10;test_getWordScore()&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;Testing updateHand...&quot;)&#10;test_updateHand()&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;Testing isValidWord...&quot;)&#10;test_isValidWord(wordList)&#10;print(&quot;----------------------------------------------------------------------&quot;)&#10;print(&quot;All done!&quot;)&#10;" />
@@ -901,14 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Midterm_assignment/applyF_filterG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -959,8 +949,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Midterm_assignment/deep_reverse_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Midterm_assignment/dict_interdiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

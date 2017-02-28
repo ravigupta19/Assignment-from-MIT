@@ -22,10 +22,12 @@ def closest_power(base, num):
     while True:
         copyNum = int(copyNum/base)
         count += 1
-        if copyNum <= base:
+        if copyNum < base:
             if(abs(num - (base ** count)) > abs(num - (base ** (count-1)))):
                 return count-1
             else:
                 return count
+        elif copyNum == base:
+            return count+1
 
-print(closest_power(4,16))
+print(closest_power(15,8.0))

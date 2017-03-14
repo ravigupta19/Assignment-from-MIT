@@ -239,6 +239,7 @@ class CiphertextMessage(Message):
             if count == len(sliptedText):
                 return ( shiftValue, decryptText)
             elif count > max:
+                   max = count
                    t = ( shiftValue, decryptText)
         return t
 
@@ -249,6 +250,13 @@ class CiphertextMessage(Message):
 #print('Actual Output:', plaintext.get_message_text_encrypted())
 
 #Example test case (CiphertextMessage)
-ciphertext = CiphertextMessage('jgnnq')
-print('Expected Output:', (24, 'hello'))
-print('Actual Output:',ciphertext.decrypt_message())
+#ciphertext = CiphertextMessage('jgnnq')
+#print('Expected Output:', (24, 'hello'))
+#print('Actual Output:',ciphertext.decrypt_message())
+
+def decrypt_story():
+    encrypted_story = get_story_string()
+    ciphertext = CiphertextMessage(encrypted_story)
+    return ciphertext.decrypt_message()
+
+print(decrypt_story())
